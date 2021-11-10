@@ -7,7 +7,7 @@
     align-items: center;
     position: fixed;
     top:0;
-    z-index: 999;
+    z-index: 99999;
     width: 100%;
 }
 
@@ -72,6 +72,7 @@
 }
 
 #section1 .container h2{
+    font-family: 'Dosis', sans-serif;;
     font-size: 120px;
     color: #26ff84;
 }
@@ -114,7 +115,7 @@
 .text-box .title{
     text-align: center;
     font-size: 70px;
-    color:#26ff84;
+    color:#333;
     position: relative;
 }
 
@@ -207,10 +208,6 @@ p{
     width:100%;
 }
 
-
-.works-slider > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item div {
-    
-}
 .works-slider > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item .work-name {
     font-size:20px;
     font-weight:bold;
@@ -250,6 +247,7 @@ p{
     width: 100%;
     text-align: center;
     padding-top: 80px;
+    margin-bottom: 200px;
 }
 
 .price{
@@ -261,6 +259,7 @@ p{
     width: 1280px;
     display: flex;
     margin: 0 auto;
+    margin-top: 50px;
     justify-content: space-between;
 }
 
@@ -270,6 +269,8 @@ p{
     background: #f1f1f1;
     margin: 20px;
     position: relative;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .design-works img{
