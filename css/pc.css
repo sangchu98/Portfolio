@@ -1,0 +1,294 @@
+#main-header{
+    height: 100px;
+    background: rgba(0, 0, 0, 0.13);
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 999;
+    width: 100%;
+}
+
+#main-header h1{
+    margin-left: 50px;
+}
+
+#gnb{
+    margin-right: 30px;
+    z-index: 999;
+}
+
+#gnb ul li a{
+    color:#fff;
+    font-size: 24px;
+}
+
+#gnb ul li a:hover{
+    color:#26FF84;
+}
+
+#gnb > ul{
+    display: flex!important;
+}
+
+#gnb ul li{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#toggle-btn{
+    display: none;
+}
+
+/*section1*/
+#section1{
+    width: 100%;
+    height: calc(110vh - 80px);
+    color:#fff;
+    position: relative;
+    text-align: center;
+    background: rgb(218, 218, 218);
+
+}
+
+#section1 .container{
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    top:50%;
+    transform: translateY(-10%);
+    z-index: 9999;
+}
+
+#section1 .container p{
+    font-size: 20px;
+    margin-left: 0;
+}
+
+#section1 .container h2{
+    font-size: 120px;
+    color: #26ff84;
+}
+
+#section1 .container h3{
+    font-size: 40px;
+}
+
+
+/*section2 about*/
+#section2{
+    width: 100%;
+    height: 100vh;
+    background: rgb(218, 218, 218);
+    position: relative;
+}
+
+#section2 .continer{
+    width: 70%;
+    height: 80%;
+    background: #fff;
+    margin: 0 auto;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:10%;
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.2);;
+
+}
+
+
+
+/*section3 pc*/
+#section3 .container{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.text-box .title{
+    text-align: center;
+    font-size: 70px;
+    color:#26ff84;
+    position: relative;
+}
+
+h4{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size:18px;
+    white-space: pre-line;
+}
+
+
+
+
+
+.work-btn a{
+    font-size:18px;
+    text-align: center;
+    font-family: 'Jua';
+}
+
+.bxs-hand-right{
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+.row::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+.cell {
+    float:left;
+}
+.cell-right {
+    float:right;
+}
+.line-height-0 {
+    line-height:0;
+}
+.line-height-0 > * {
+    line-height:normal;
+}
+.con {
+    max-width:90%;
+    margin:0 auto;
+    padding-top:108px;
+}
+.block {
+    display:block;
+}
+.mobile-con {
+    max-width:95%;
+    margin:0 auto;
+}
+.img-box img, .img-box video {
+    width:100%;
+}
+
+.item img:hover{
+    opacity: 0.6;
+}
+
+.visible-on {
+    display:block;
+}
+.visible-off {
+    display:none;
+}
+/* 라이브러리 끝 */
+
+
+/* 커스텀 */
+.works-slider {
+    max-width:100%;
+    margin:0 auto;
+
+}
+
+.works-slider > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item {
+    width:33.3333%;
+}
+
+.works-slider > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item {
+    margin:0 auto;
+    width:100%;
+}
+
+
+.works-slider > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item div {
+    
+}
+.works-slider > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item .work-name {
+    font-size:20px;
+    font-weight:bold;
+    color:#111;
+    margin-top:5px;
+}
+
+.works-slider > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item .work-info {
+    color:rgb(51, 51, 51);
+}
+
+.works-slider > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item .price {
+    color:#8d8d8d;
+}
+
+.works-slider > .owl-carousel > .owl-nav > .owl-prev, .works-slider > .owl-carousel > .owl-nav > .owl-next {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translatey(-50%);
+    border-radius:50%;
+    padding:15px 20px;
+}
+
+.works-slider > .owl-carousel > .owl-nav > .owl-next {
+    left:auto;
+    right:0;
+}
+
+#section4 .container{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#section5 .container{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.price{
+    white-space:pre-line;
+    font-size: 16px;
+}
+
+.design-works{
+    width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.design-works .design{
+    width: 500px;
+    height: 400px;
+    background: #f1f1f1;
+    margin: 20px;
+    position: relative;
+}
+
+.design-works img{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: -10px;
+}
+
+
+.design-works .design:last-child img{
+    width: 60%;
+    position: absolute; 
+    top: 25%;
+    left: 20%;
+}
+
+
+
+
+
+

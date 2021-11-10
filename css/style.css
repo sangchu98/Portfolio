@@ -1,0 +1,46 @@
+:root{
+    --main-color: orange;
+    --text-color: #333;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-size:18px;
+    color:#333;
+    font-family: 'Jua','Noto Sans KR', sans-serif;
+    background: #fff;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.btn{
+    border-style: none;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    color:#fff;
+}
+
+.bx-menu{
+    font-size: 30px;
+}
