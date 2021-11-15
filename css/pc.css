@@ -102,7 +102,89 @@
     transform: translateX(-50%);
     top:10%;
     box-shadow: 15px 15px 15px rgba(0,0,0,0.2);;
+    display: flex;
+}
 
+#section2 .name{
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 80px;
+}
+#section2 .about-img{
+    width: 300px;
+    height: 300px;
+    background: #ccc;
+    border-radius: 50%;
+
+}
+
+#section2 .name-text{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#section2 .name .name-text p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#section2 .about{
+    width: 59%;
+}
+#section2 .about .about-text{
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 250px;
+}
+
+#section2 .about .about-text p{
+    margin-top: 30px;
+    line-height: 250%;
+    font-size: 16px;
+}
+
+#section2 .about-box{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#section2 .about-box .info ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#section2 .about-box .info ul img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+#section2 .skill{
+    margin-right: 0%;
+}
+#section2 .skill h3{
+    margin-top: 8%;
+
+}
+#section2 .skill ul{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section2 .skill ul li{
+    font-size: 14px;
+    text-align: center;
+}
+#section2 .skill ul li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 
