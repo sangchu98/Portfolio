@@ -110,7 +110,7 @@
     text-align: center;
     margin-left: 80px;
 }
-#section2 .about-img{
+#section2 .about-img img{
     width: 300px;
     height: 300px;
     background: #ccc;
@@ -135,7 +135,6 @@
 #section2 .about .about-text{
     margin-top: 10%;
     margin-left: 10%;
-    height: 250px;
 }
 
 #section2 .about .about-text p{
@@ -153,6 +152,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 
 }
 
@@ -212,8 +212,8 @@ h4{
 
 p{
     font-size:18px;
-    white-space: pre-line;
 }
+
 
 
 
